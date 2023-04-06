@@ -1,5 +1,3 @@
-//import './App.css';
-
 import { RegistrationForm } from './components/RegistrationForm';
 import { AuthProvider } from './context/AuthContext';
 
