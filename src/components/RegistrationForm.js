@@ -10,7 +10,6 @@ export const RegistrationForm = () => {
     const formData = new FormData(event.target);
     const userData = {
       firstName: formData.get('firstName'),
-      lastName: formData.get('lastName'),
       email: formData.get('email'),
       password: formData.get('password'),
     };
